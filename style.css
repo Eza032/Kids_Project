@@ -1,0 +1,456 @@
+/* General reset */
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  
+}.Girl-section{
+  display: flex;
+ background-color: rgb(252, 252, 252);
+ padding: 0px;
+ box-sizing: border-box;
+ justify-content: center;
+ 
+}
+.pink-box{
+display: flex;
+  height: 45vw;
+  background-color: pink;
+  align-items: center; 
+}
+main{
+  
+  padding: 0px;
+  min-height: 150vh;
+  align-items: center;
+  justify-content: center;
+}
+.header{
+align-items: center;
+color: #fff;
+justify-content: center;
+margin: 10px;
+}/* Sidebar (Phase 1 structure) */
+
+
+/* Main content area */
+
+/* Simple color boxes */
+
+
+.categories { display: flex;  
+  align-content: center;
+  box-sizing: border-box; 
+  margin: 0px;
+  color: black;
+  justify-content: center;
+
+ }
+  .Category { 
+   
+   padding: 10px;
+  
+  
+  }
+    .Category h3 {
+    width: 260px;
+    height: 280px;  
+    background-color: #2a9d8f;
+    margin: 0%;
+  } 
+  .Category h1{
+    width:290px ;
+    height: 420px;
+    background-color: #2a9d8f;
+    margin: 0%;
+
+  }
+  .title{
+    background-color: #fff;
+   margin: 0%;
+  text-align: center;
+    color: black;
+   
+  }
+  .title p{
+   
+  background-color: #fff;
+  box-sizing: border-box;
+  margin: 0%;
+  display: flex;
+  }
+ .colorrow{
+  display: flex;
+  gap: 10px;
+ }
+ .color{
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+ }.black{background-color: rgb(22, 22, 22);}
+ .brown{background-color: rgb(105, 55, 55);}
+ .blue{background-color: rgb(28, 95, 230); }
+ .Gray{background-color: rgb(155, 154, 153); }
+ .lightblue{background-color: lightblue;}
+ .lightgreen{background-color: lightgreen;}
+ .tomato{background-color: tomato;}
+ .cyan{background-color: cyan;} 
+ .lightpink{background-color: lightpink;}
+.lightpurple{background-color: rgb(224, 117, 224);}
+.des{
+  background-color: #fff;
+  color: black;
+}
+h1{
+  align-content: center;
+  justify-content: center;
+  color: black;
+  margin: 0px;
+  box-sizing: border-box;
+ display: flex;
+font-size: 60px;
+}
+.des h2{
+ padding-left: 60px;
+font-size: 30px;
+}
+.des p{
+  font-size: larger;
+  justify-content: center;
+   padding: 0px 60px 0px 60px;
+}
+.full{
+  
+  background-color:#fff;
+  padding: 10px;
+}
+.half{
+background-color: #2a9d8f;
+gap: 10px;
+
+}
+.half h3{
+  width: 1000px; 
+  height: 300px;
+  display: flex;
+}
+.categories1 { display: flex;  
+  justify-content: center;
+  box-sizing: border-box; 
+  margin: 0px;
+ }
+  .Category1 { 
+   margin: 10px; 
+   gap: 0px;
+  }
+    .Category1 h3 {
+    width: 300px;
+    height: 300px;  
+    background-color: #2a9d8f;
+    margin: 0%;}
+    
+  
+     
+ .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  align-items: center;   /* vertical centering */
+  justify-content: flex-start;
+ 
+ 
+  z-index: 1000;
+}
+/*Nav bar*/
+.navbar .logo img {
+  height: 120px;   /* control logo size */
+  width: auto;    /* keep proportions */
+  display: block;
+  margin-right: 400px;
+  padding-left: 20px;
+ 
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin:0px;
+  padding: 0;
+  
+}
+
+.navbar ul li  i{
+  
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  transition: color 0.3s ease;
+  
+}
+
+.navbar ul li a:hover {
+  color: #ffcc00;
+}.navbar ul li a{
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+text-align: right;
+}
+ .navbar1 {
+ 
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  align-items: center;   /* vertical centering */
+  justify-content: flex-start;
+ 
+ 
+  z-index: 1000;
+}
+/*Nav bar*/
+.navbar1 .logo img {
+  height: 100px;   /* control logo size */
+  width: auto;    /* keep proportions */
+  display: block;
+  margin-right: 420px;
+ 
+}
+
+.navbar1 ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin:0px;
+  padding: 0;
+  text-decoration: none;
+  
+}
+
+.navbar1 ul li  i{
+  
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  
+}
+
+.navbar1 ul li a:hover {
+  color: #ffcc00;
+}.navbar1 ul li a{
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+
+}
+.wholelogin{
+  align-content: center;
+  text-align: center;
+  justify-content: center; 
+  padding: 150px;
+}
+
+.loginpage{
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  color: black;
+  size: 100px;
+ padding: 20px;
+ flex-direction: column;
+align-items: center;
+gap: 10px;
+}
+input{
+  width: 300px;
+  height: 30px;
+}
+.signinbtn{
+  color: white;
+justify-content: center;
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 10px;
+}
+button{
+  background-color: black;
+  color: #fff;
+  font-size: 17px;
+  justify-content: center;
+  align-content: center;
+  box-sizing: border-box;
+}
+.signinbtn button:hover{
+  
+  background-color: #2a9d8f;
+}
+/*last categories*/
+.categories2 { display: flex;  
+  justify-content: center;
+  box-sizing: border-box; 
+  margin: 0px;
+ 
+ }
+  .Category2 { 
+   margin: 5px; 
+  }
+  .Category2 a{
+    text-decoration: none;
+    
+  }
+    .Category2 h3 {
+    width: 400px;
+    height: 350px;  
+    background-color: #2a9d8f;
+    margin: 0%;
+    text-decoration: none; color: black;
+   
+  } 
+  .title2{
+    background-color: #fff;
+   margin: 0%;
+  
+    color: black;
+   
+  }
+  .title2 p{
+   
+  background-color: #fff;
+  box-sizing: border-box;
+  margin: 0%;
+  display: flex;
+  font-size: 20px;
+  }
+  
+  .lastone{
+    color: black;
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
+    gap: 160px;
+    align-items: center;
+  }
+  .lastone h4{
+    font-size: 40px;
+    display: flex;
+    padding: 20px;
+  }
+  .account{
+    margin: 0%;
+    padding: 40px;
+    gap: 30px;
+    font-size: 40px;
+  }
+  input[type="email"]{
+    display: flex;
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+   outline: none; 
+    padding: 8px 0px;
+  }
+ .site-footer {
+  background: #000000;
+  padding: 40px;
+  display: flex;
+  justify-content: flex-end; /* pushes content to the right */
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;    /* stack sections vertically */
+  align-items: flex-end;     /* align text to the right side */
+  gap: 25px;                 /* spacing between sections */
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: right;         /* headings aligned right */
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;         /* links aligned right */
+}
+
+.footer-section ul li {
+  margin-bottom: 6px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #e7e3e3;
+}
+footer{
+      color: #fff;
+      background-color: black;
+      text-align: right;
+    }
+  /*Girl's Clothing Section*/
+  h3{
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+    box-sizing: border-box;
+   color: #000000;
+   padding-top: 30px;
+   
+    
+  }
+  .girlcloth { display: flex;  
+  align-content: center;
+  box-sizing: border-box; 
+  margin: 10px;
+  color: black;
+  justify-content: center;
+  padding-top: 30px;
+  border: 1px solid black;
+
+ }
+  .Cloth { 
+   
+   padding: 10px;
+  
+  
+  }
+    .Cloth h3 {
+    width: 230px;
+    height: 350px;  
+    background-color: #2a9d8f;
+    margin: 0%;
+  } 
+  .ctitle{
+    background-color: #fff;
+   margin: 0%;
+  text-align: center;
+    color: black;
+   
+  }
+  .ctitle p{
+   
+  background-color: #fff;
+  box-sizing: border-box;
+  margin: 0%;
+  display: flex;
+  }
+ .crow{
+  display: flex;
+  gap: 10px;
+ }
+ .color{
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;}
